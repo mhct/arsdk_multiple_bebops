@@ -1,0 +1,11 @@
+prefix=/home/mario/rats/bebop_ws/devel/.private/bebop_driver/arsdk/out/arsdk-native/staging/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: json
+Description: JSON implementation in C
+Version: 0.9
+Requires: 
+Libs:  -L${libdir} -ljson
+Cflags: -I${includedir}/json
